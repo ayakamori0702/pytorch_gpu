@@ -8,6 +8,7 @@ docker \
   --rm \
   -e TZ=Asia/Tokyo \
   -it \
+  -u $(id -u):$(id -g) \
   -v $(pwd):/mnt \
   --workdir=/mnt \
   --gpus=all \
