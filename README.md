@@ -9,5 +9,31 @@ torchaudio == 2.0.2
 torchvision == 0.15.2  
 seaborn == 0.13.0  
 scikit-learn == 1.3.1  
-## GPU動作確認
+
+## dockerの立ち上げ方
+<ローカル>
+
+1.Githubから必要なものをclone,またはダウンロードしてくる
+
+$ git@github.com:ayakamori0702/pytorch_gpu.git
+
+ダウンロードする場合は、ほしいversionのtagからzipかtarをダウンロード
+
+必要なスクリプトやデータがあれば、pytorch_gpuフォルダに追加
+
+2.dockerfileをbuildする
+
+$ docker build -t amori/pytorch_gpu:v0.0.0 docker
+
+確かめるとき $ docker images
+
+3.docker runする
+
+$ ./run.sh
+このとき、run.shの リポジトリ名:タグ名 またはイメージID が合っているか確認する. (最後の行がイメージIDでないとだめな場合もあり)
+
+tokenは $ docker logs jupyter で確認
+
+
+4.GPU動作確認
 $python3 check_cuda.py
