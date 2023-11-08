@@ -1,0 +1,21 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.2.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+]0;root@85451ab3cb36: /mntroot@85451ab3cb36:/mnt# @oh     puyp   ytjpn   hon -V
+bash: python: command not found
+]0;root@85451ab3cb36: /mntroot@85451ab3cb36:/mnt# python -V[1@3
+Python 3.8.10
+]0;root@85451ab3cb36: /mntroot@85451ab3cb36:/mnt# exi   python3 -V[1P -V         r exit  
+exit

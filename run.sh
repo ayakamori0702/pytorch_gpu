@@ -1,7 +1,7 @@
 #!/bin/sh
 
 TODAY=$(date "+%Y%m%d_%H%M%S")
-LOG="tee log/log_exec_${TODAY}.txt"
+LOG="tee docker/log/log_exec_${TODAY}.txt"
 
 docker \
   run \
