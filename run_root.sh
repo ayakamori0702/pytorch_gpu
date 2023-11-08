@@ -12,5 +12,5 @@ docker \
   -v $(pwd):/mnt \
   --workdir=/mnt \
   --gpus=all \
-  amori/pytorch_gpu:v0.0 \
+  amori/pytorch_gpu:v0.0.0 \
   $@ | ${LOG}
