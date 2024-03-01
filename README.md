@@ -15,7 +15,7 @@ scikit-learn == 1.3.1
 
 1.Githubから必要なものをclone,またはダウンロードしてくる
 
-$ git@github.com:ayakamori0702/pytorch_gpu.git
+$ git clone git@github.com:ayakamori0702/pytorch_gpu.git
 
 ダウンロードする場合は、ほしいversionのtagからzipかtarをダウンロード
 
